@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 50px 60px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 20%;
+}
+
+.fas{
+    color: rgb(27, 27, 29);
+    font-size: 50px;
+}
+
+/*Media Query*/
+@media (max-width:650px){
+    button{
+        margin-top: 60%;
+    }
+}
